@@ -1,5 +1,5 @@
 import react from 'react';
-class Example extends React.Component {
+class Example extends react.Component {
     render() {
         return<p>Hello, my name is Steven Capute!</p>;
     }
