@@ -9,6 +9,7 @@ function App() {
      <Crunch/>
      <Pushup/>
      <Lift/>
+     <p>*one rep adds 5</p>
     </div>
   );
 }
