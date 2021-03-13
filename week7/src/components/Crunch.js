@@ -13,7 +13,8 @@ render() {
     return(
         <div>
             <h2>Crunches: {this.state.Crunches}</h2>
-            <button onClick={() => this.setState({Crunches: this.state.Crunches + 1})}>Crunch Reps</button>
+            <button onClick={() => this.setState({Crunches: this.state.Crunches + 1})}>Crunch</button>
+            <button onClick={() => this.setState({Crunches: this.state.Crunches + 5})}>Crunch Rep</button>
             <button onClick={() => this.setState({Crunches: 0})}>Reset Crunches</button>
         </div>
     );

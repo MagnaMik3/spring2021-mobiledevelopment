@@ -1,5 +1,6 @@
 import Crunch from './components/Crunch'
 import Pushup from './components/Push up'
+import Lift from './components/Weights'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
     <h1>Fitness Tracker</h1>
      <Crunch/>
      <Pushup/>
+     <Lift/>
     </div>
   );
 }
